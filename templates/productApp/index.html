@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <link rel="stylesheet" href="{% static 'static/css/stylesheet.css' %}">
+</head>
+<body>
+<h1>Welocme to our online shopping portal</h1>
+<ul>
+    <li><a href="/electronics"><img src="{% static 'static/images/electronics.png' %}">Electronics</a></li>
+    <li><a href="/toys"><img src="{% static 'static/images/toys.png' %}">Toys</a></li>
+    <li><a href="/shoes"><img src="{% static 'static/images/shoes.png' %}">Shoes</a></li>
+</ul>
+</body>
+</html>
